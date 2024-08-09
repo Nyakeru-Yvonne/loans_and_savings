@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'; // Import Hero Icons
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import Dropdown from './copy';
  
 
