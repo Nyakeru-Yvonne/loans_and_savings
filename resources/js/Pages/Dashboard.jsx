@@ -8,8 +8,8 @@ import {
     CardFooter,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+} from "@/Components/ui/card";
+import { Button } from "@/Components/ui/button";
 import {
     Table,
     TableBody,
@@ -18,7 +18,7 @@ import {
     TableHead,
     TableHeader,
     TableRow,
-} from "@/components/ui/table";
+} from "@/Components/ui/table";
 import Sidebar from '@/Components/Sidebar'; // Import Sidebar
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'; // Import Hero Icons
 

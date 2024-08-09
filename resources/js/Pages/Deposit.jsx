@@ -8,8 +8,8 @@ import {
     CardFooter,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card";
-import { Button } from '@/components/ui/button';
+} from "@/Components/ui/card";
+import { Button } from '@/Components/ui/button';
 import {
     Dialog,
     DialogContent,
@@ -19,7 +19,7 @@ import {
     DialogTrigger,
     DialogFooter,
     DialogClose,
-} from "@/components/ui/dialog";
+} from "@/Components/ui/dialog";
 import { ChevronRightIcon } from '@heroicons/react/24/outline';
 
 export default function Deposit({ auth }) {
@@ -35,7 +35,7 @@ export default function Deposit({ auth }) {
         setAmount(value);
         setInterest(value * 0.05);
     };
-php
+// php
     const handleFundingAccountChange = (event) => {
         setFundingAccount(event.target.value);
         // Clear out any previously entered details when funding account changes
