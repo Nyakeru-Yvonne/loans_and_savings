@@ -35,7 +35,7 @@ export default function Deposit({ auth }) {
         setAmount(value);
         setInterest(value * 0.05);
     };
-php
+// php
     const handleFundingAccountChange = (event) => {
         setFundingAccount(event.target.value);
         // Clear out any previously entered details when funding account changes
